@@ -1,0 +1,39 @@
+.board {
+  display: flex;
+  height: 95vh;
+}
+/* *::-webkit-scrollbar {
+  width: 0;
+} */
+
+.columnContainer {
+  margin: 8px;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  min-width: 400px;
+  transition: background-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}
+
+.title {
+  width: 50%;
+
+  transition: background-color 0.2s ease;
+}
+
+.taskList {
+  overflow-y: auto;
+  padding: 8px;
+  transition: background-color 0.2s ease;
+  flex-grow: 1;
+  min-height: 100px;
+}
+
+.taskContainer {
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  padding: 8px;
+  margin-bottom: 8px;
+}

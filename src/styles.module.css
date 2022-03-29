@@ -1,0 +1,52 @@
+.fixedSidebar {
+  height: 100%;
+}
+
+.ant-menu-item {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 3px;
+}
+.ant-menu-dark.ant-menu-vertical {
+  width: 100%;
+}
+.ant-menu-item-selected {
+  margin-left: 0;
+}
+.ant-menu-item i {
+  margin-right: 0;
+}
+
+.schedioSiteLayout {
+  height: 100vh;
+}
+
+.fixedHeaderLayout {
+  grid-template-areas: "header" "content";
+  overflow-y: hidden;
+}
+.fixedHeaderLayout > div > .contentWrapper {
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  overflow-y: auto;
+  position: absolute;
+
+  /* &::-webkit-scrollbar {
+    width: @scrollbarWidth;
+    background-color: @backgroundColor;
+  }
+  &::-webkit-scrollbar-track {
+    border-radius: @scrollbarWidth / 2 - 1;
+    background-color: #e3e3e3;
+  }
+  &::-webkit-scrollbar-thumb {
+    border: 2px solid #e3e3e3;
+    background-clip: padding-box;
+    border-radius: @scrollbarWidth / 2 - 1;
+    background-color: #999999;
+  } */
+}
